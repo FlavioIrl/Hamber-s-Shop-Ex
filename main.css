@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #30080b;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #FFBC0D;
+    padding-bottom: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 67px;
+    color: #a81b24;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.menu-loja {
+    margin-right: 12px;
+}
+
+.img-sobre {
+    margin: 5px;
+}
+
+nav ul li {
+    margin-top: 29px;
+    float: left;
+    font-size: 30px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.sobre {
+    margin-left: 30px;
+}
+
+.produtos h2 {
+    margin-bottom: 40px;
+}
+
+.sobre h2{
+    margin-bottom: 20px;
+}
+
+.sobre h2 ,  .produtos h2{
+    color: #a81b24;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 2px solid #a81b24;
+    padding-bottom: 10px;
+}
+
+.itens-hamb b {
+    color: #6e141a;
+}
+
+.itens-hamb h3 {
+    color: #a81b24;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produtos ul li {
+    list-style: none;
+}
+
+.produtos h2 {
+    margin-top: 20px;
+}
+
+.produtos img {
+    width: 100%;
+}
+
+.sobre p {
+    margin: 10px;
+}
+
+.sobre-loja {
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+img {
+    border-radius: 30px;
+    width: 20em;
+}
+
+.hamburguers {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.itens-hamb button {
+    background-color: #ff0011;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+
+.itens-hamb button:hover {
+    background-color: #c40310;
+}
+
+.itens-hamb {
+    padding-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.itens-hamb p {
+    margin-bottom: 10px;
+}
+
+.btn-comprar2 {
+    margin-top: 19px;
+}
+
+.btn-comprar4 {
+    margin-top: 18px;
+}
+
+footer p {
+    color: #30080b;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #FFBC0D;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:640px) {
+    .container{
+        max-width: 85%;
+    }
+    
+    header {
+        padding-bottom: 10px;
+    }
+
+    header h1 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    
+    .sobre {
+        margin-left: 0px;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    .img-sobre{
+        width: 100%;
+    }
+
+    .sobre-loja {
+        margin-top: 20px;
+        display: block;
+    }
+
+    .hamburguers {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width:1023px) {
+    .container{
+        max-width: 85%;
+    }
+
+    .img-sobre{
+        width: 100%;
+    }
+
+    .sobre-loja {
+        margin-top: 20px;
+        display: block;
+    }
+
+    .sobre {
+        margin-left: 0px;
+    }
+
+    header h1 {
+        margin-top: 10px;
+        font-size: 50px;
+    }
+
+    nav ul li {
+        margin-top: 21px;
+        font-size: 28px;
+    }
+
+    .hamburguers {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+    
+    .btn-comprar2 {
+        margin-top: 0;
+    }
+
+    .btn-comprar4 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .botao-menu{
+        display: none;
+    }
+}
